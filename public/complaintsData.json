@@ -9,7 +9,8 @@
     "studentYear": "300L",
     "phone": "08012345678",
     "reportTo": "Mr B",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?"
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?",
+    "status": "open"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "studentYear": "300L",
     "phone": "08012345678",
     "reportTo": "Mr B",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?"
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?",
+    "status": "open"
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "studentYear": "300L",
     "phone": "08012345678",
     "reportTo": "Mr B",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?"
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?",
+    "status": "open"
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "studentYear": "300L",
     "phone": "08012345678",
     "reportTo": "Mr B",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?"
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?",
+    "status": "open"
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "studentYear": "300L",
     "phone": "08012345678",
     "reportTo": "Mr B",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?"
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?",
+    "status": "open"
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
     "studentYear": "300L",
     "phone": "08012345678",
     "reportTo": "Mr B",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?"
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?",
+    "status": "open"
   },
   {
     "id": 7,
@@ -81,6 +87,20 @@
     "studentYear": "300L",
     "phone": "08012345678",
     "reportTo": "Mr B",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?"
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?",
+    "status": "open"
+  },
+  {
+    "id": 7,
+    "title": "Technical issues preventing course registration",
+    "dateCreated": "2023-02-18",
+    "firstName": "Abiola",
+    "lastName": "Oriyomi",
+    "email": "oriyomiabiola@gmail.com",
+    "studentYear": "300L",
+    "phone": "08012345678",
+    "reportTo": "Mr B",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?",
+    "status": "open"
   }
 ]
