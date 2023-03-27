@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Made complain for course registration",
+    "dateCreated": "2022-02-15",
+    "firstName": "Bolaji",
+    "lastName": "Ogunkoya",
+    "email": "balajiogunkoya@hotmail.com",
+    "studentYear": "300L",
+    "phone": "08012345678",
+    "reportTo": "Mr B",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?"
+  },
+  {
+    "id": 2,
+    "title": "Unable to enroll in required course",
+    "dateCreated": "2022-02-18",
+    "firstName": "Bolaji",
+    "lastName": "Ogunkoya",
+    "email": "balajiogunkoya@hotmail.com",
+    "studentYear": "300L",
+    "phone": "08012345678",
+    "reportTo": "Mr B",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?"
+  },
+  {
+    "id": 3,
+    "title": "Course registration system not working properly",
+    "dateCreated": "2022-02-20",
+    "firstName": "Bolaji",
+    "lastName": "Ogunkoya",
+    "email": "balajiogunkoya@hotmail.com",
+    "studentYear": "300L",
+    "phone": "08012345678",
+    "reportTo": "Mr B",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?"
+  },
+  {
+    "id": 4,
+    "title": "Class schedule conflicts causing issues",
+    "dateCreated": "2022-02-21",
+    "firstName": "Bolaji",
+    "lastName": "Ogunkoya",
+    "email": "balajiogunkoya@hotmail.com",
+    "studentYear": "300L",
+    "phone": "08012345678",
+    "reportTo": "Mr B",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?"
+  },
+  {
+    "id": 5,
+    "title": "Delay in receiving course registration confirmation",
+    "dateCreated": "2023-03-24",
+    "firstName": "Bolaji",
+    "lastName": "Ogunkoya",
+    "email": "balajiogunkoya@hotmail.com",
+    "studentYear": "300L",
+    "phone": "08012345678",
+    "reportTo": "Mr B",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?"
+  },
+  {
+    "id": 6,
+    "title": "Course availability changed after registration opened",
+    "dateCreated": "2022-12-23",
+    "firstName": "Bolaji",
+    "lastName": "Ogunkoya",
+    "email": "balajiogunkoya@hotmail.com",
+    "studentYear": "300L",
+    "phone": "08012345678",
+    "reportTo": "Mr B",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?"
+  },
+  {
+    "id": 7,
+    "title": "Technical issues preventing course registration",
+    "dateCreated": "2023-02-18",
+    "firstName": "Bolaji",
+    "lastName": "Ogunkoya",
+    "email": "balajiogunkoya@hotmail.com",
+    "studentYear": "300L",
+    "phone": "08012345678",
+    "reportTo": "Mr B",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque est quo atque, rem, quasi repudiandae iusto mollitia, sed laboriosam id esse! In, modi numquam saepe voluptatem aliquam nemo labore eaque?"
+  }
+]
