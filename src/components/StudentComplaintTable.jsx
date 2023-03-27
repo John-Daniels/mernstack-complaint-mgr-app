@@ -154,7 +154,6 @@ const StudentComplaintTable = () => {
                   onClick={() => {
                     setSelectedComplaint(complaint);
                     setShowModal(true);
-                    // setActiveRowIndex(index);
                   }}
                   style={{
                     backgroundColor:
@@ -166,7 +165,6 @@ const StudentComplaintTable = () => {
                   <td className="sn-col">{index + 1}</td>
                   <td className="title-col">{complaint.title}</td>
                   <td>{complaint.dateCreated}</td>
-                  {/* <td>{complaint.studentYear}</td> */}
                 </tr>
               ))}
             </tbody>

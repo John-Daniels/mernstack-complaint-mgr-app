@@ -7,18 +7,6 @@ import { nanoid } from "nanoid";
 import StudentComplaintTable from "../components/StudentComplaintTable";
 
 const Student = () => {
-  // const [complaints, setComplaints] = useState([]);
-  // useEffect(() => {
-  //   const fetchComplaints = async () => {
-  //     const response = await fetch(
-  //       process.env.PUBLIC_URL + "/complaintsData.json"
-  //     );
-  //     const data = await response.json();
-  //     setComplaints(data);
-  //   };
-  //   fetchComplaints();
-  // }, []);
-
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleCloseModal = () => {
@@ -77,15 +65,10 @@ const Student = () => {
         </header>
 
         <main className=" mt-20 flex flex-col gap-8">
-          {/* <h2 className="flex flex-row justify-center text-[48px] font-medium"> */}
           <h2 className="flex flex-row justify-center text-3xl font-bold leading-tight">
             Previous Complaint
           </h2>
-          <StudentComplaintTable
-          // complaints={storedData ? storedData : complaints}
-          // filteredComplaints={storedData ? storedData : filteredComplaints}
-          // setFilteredComplaints={setFilteredComplaints}
-          />
+          <StudentComplaintTable />
         </main>
       </div>
     </div>
