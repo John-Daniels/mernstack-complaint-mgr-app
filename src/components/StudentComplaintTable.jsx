@@ -135,7 +135,7 @@ const StudentComplaintTable = () => {
                 >
                   S/N
                 </th>
-                <th className="title-col">Complaint Title</th>
+                <th className="title-com-col">Complaint Title</th>
                 <th
                   style={{
                     borderTopRightRadius: "10px",

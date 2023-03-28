@@ -201,7 +201,7 @@ const AdminComplaintTable = () => {
                   <td className="email-col">{complaint.email}</td>
                   <td className="level-col">{complaint.studentYear}</td>
                   <td className="phone-col">{complaint.phone}</td>
-                  <td className="title-col">{complaint.title}</td>
+                  <td className="title-a-col">{complaint.title}</td>
                 </tr>
               ))}
             </tbody>
