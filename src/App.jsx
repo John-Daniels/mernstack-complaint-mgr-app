@@ -9,6 +9,7 @@ import PageNotFound from "./pages/PageNotFound";
 import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
 import Student from "./pages/Student";
+import SuperAdmin from "./pages/Superadmin/SuperAdmin";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/sign-up" element={<Signup />} />
           <Route path="/student" element={<Student />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/superadmin" element={<SuperAdmin />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BackgroundWrapper>
