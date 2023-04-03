@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./AdminComplaintTable.css"; // Import the CSS file for this component
 import ComplaintModal from "./modal/ComplaintModal";
+import ReportGenerator from "./ReportGenerator";
 
 const AdminComplaintTable = () => {
   const onStatusChange = (id, status) => {
@@ -158,7 +159,7 @@ const AdminComplaintTable = () => {
             </label>
             <button
               type="submit"
-              className="bg-oou-blue text-white font-semibold py-0 px-8 rounded-md"
+              className="bg-oou-blue text-white font-semibold py-0 px-10 rounded-full hover:bg-oou-purple"
             >
               Add
             </button>
@@ -264,6 +265,7 @@ const AdminComplaintTable = () => {
         </section>
 
         <div>You have selected: {selectedOption ? selectedOption : "All"}</div>
+        <ReportGenerator />
       </div>
     </>
   );
