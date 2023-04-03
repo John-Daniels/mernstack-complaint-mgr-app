@@ -21,6 +21,8 @@ const AdminComplaintTable = () => {
   const [selectedComplaint, setSelectedComplaint] = useState(null);
   const [complaints, setComplaints] = useState([]);
   const [filteredComplaints, setFilteredComplaints] = useState([]);
+  const [categories, setCategories] = useState([]);
+  const [newCategoryName, setNewCategoryName] = useState("");
 
   useEffect(() => {
     const fetchData = async () => {
@@ -32,6 +34,15 @@ const AdminComplaintTable = () => {
       ); // set the initial data as complaints with status 'in progress'
 
       setFilteredComplaints(data); // set the initial data as filtered complaints
+    };
+    fetchData();
+  }, []);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch("categoriesData.json");
+      const data = await response.json();
+      setCategories(data);
     };
     fetchData();
   }, []);
@@ -65,6 +76,17 @@ const AdminComplaintTable = () => {
 
   const handleSearch = (e) => {
     setSearchQuery(e.target.value);
+  };
+
+  const handleNewCategoryNameChange = (event) => {
+    setNewCategoryName(event.target.value);
+  };
+
+  const handleAddCategory = (event) => {
+    event.preventDefault();
+    const newCategory = { id: categories.length + 1, name: newCategoryName };
+    setCategories([...categories, newCategory]);
+    setNewCategoryName("");
   };
 
   const handleOptionChange = (e) => {
@@ -117,6 +139,32 @@ const AdminComplaintTable = () => {
   return (
     <>
       <div className=" flex flex-col gap-10 mx-auto container border-2 py-[50px] px-[15px] rounded-2xl border-[#D9D9D9] ">
+        <div className="flex flex-col gap-4">
+          <h2 className="text-2xl font-bold text-oou-blue">Categories</h2>
+          <ul className="flex flex-col gap-2">
+            {categories.map((category) => (
+              <li key={category.id}>{category.name}</li>
+            ))}
+          </ul>
+          <form onSubmit={handleAddCategory} className="flex gap-2">
+            <label className="flex flex-col">
+              <span className="text-sm">New Category:</span>
+              <input
+                type="text"
+                value={newCategoryName}
+                onChange={handleNewCategoryNameChange}
+                className="border border-gray-300 rounded-md px-2 py-1 text-sm"
+              />
+            </label>
+            <button
+              type="submit"
+              className="bg-oou-blue text-white font-semibold py-0 px-8 rounded-md"
+            >
+              Add
+            </button>
+          </form>
+        </div>
+
         <div className=" flex flex-row gap-4 justify-between rounded-xl ">
           <div className=" w-full max-w-[816px] flex flex-row items-center pl-[10px] gap-2 text-xl border-2 rounded-xl border-[#D9D9D9] ">
             <svg
