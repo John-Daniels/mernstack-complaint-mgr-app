@@ -43,7 +43,7 @@ const Student = () => {
 
         <header className="inside-page mx-auto mt-36 flex justify-center bg-img">
           <div className="flex flex-col justify-center text-center items-center gap-12 self-center ">
-            <h2 className="text-3xl font-bold leading-tight">
+            <h2 className=" flex flex-col text-3xl font-bold leading-tight">
               Welcome to the Complaint Management System,{" "}
               <span className="text-oou-blue text-5xl">Ajibola Osunkoya</span>
             </h2>
