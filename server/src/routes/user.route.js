@@ -1,47 +1,35 @@
-const { Router } = require("express")
-const jwt = require("jsonwebtoken")
-const User = require("../models/User.model")
-const respond = require("../utils/respond")
+const { Router } = require("express");
+const jwt = require("jsonwebtoken");
+const User = require("../models/User.model");
+const respond = require("../utils/respond");
 
-const { verifyAuthToken } = require("../middleware/auth.middleware")
+const { verifyAuthToken } = require("../middleware/auth.middleware");
 
 const {
   signup,
   login,
-  verifyUser,
-  requestVerificationToken,
   getUserDetails,
-} = require("../controllers/user.controller")
+  // requestForgetPassword,
+} = require("../controllers/user.controller");
 
-const router = Router()
+const router = Router();
+
+router.post("/signup", signup);
+router.post("/login", login);
+
+// router.put("/login", login);
+// router.post("/recovery/password-reset/request", requestForgetPassword);
+// router.post("/recovery/password-reset", requestForgetPassword);
 
 router.get("/", async (req, res) => {
-  const users = await User.find({})
+  const users = await User.find();
+  res.send(users);
+});
 
-  res.send(users)
-})
+// authenticated area
+router.use(verifyAuthToken);
+router.get("/profile", getUserDetails);
+// router.post('/', updateUser);
+// router.delete('/', deleteUser);
 
-router.get("/profile", verifyAuthToken, getUserDetails)
-
-// {
-//   username: 'John Daniels',
-//   email: 'adeyemijohndaniels@gmail.com'
-//   password: '1234567890'
-// }
-router.post("/signup", signup)
-
-// {
-//   username: 'John Daniels',
-//   password: '1234567890'
-// }
-router.post("/login", login)
-
-// /verificatiion?token=askdfr0i2dfksad;lkfpqdwiafisdfjds
-router.post("/verification", verifyUser)
-
-// /verification/request/?email=test@gmail.com
-router.post("/verification/request", requestVerificationToken)
-
-// TODO: implement, update, delete, add validation middleware
-
-module.exports = router
+module.exports = router;
